@@ -1,0 +1,121 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="utf-8">
+    <link rel="stylesheet" href="styles.css">
+    <title>webinaire responsive</title>
+
+    <script src="https://kit.fontawesome.com/4a7af62695.js" crossorigin="anonymous"></script>
+
+    <link rel="preconnect" href="https://fonts.gstatic.com">
+    <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@100;400;700&display=swap" rel="stylesheet">
+    
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <!--   https://developer.mozilla.org/fr/docs/Web/HTML/Viewport_meta_tag
+    - La propriété width contrôle la taille de la zone d'affichage. Elle peut être définie sur un nombre spécifique de pixels comme width=600 ou sur la valeur spéciale device-width, qui est la largeur de l'écran en pixels CSS à une échelle de 100%.
+    - La propriété initial-scale contrôle le niveau de zoom lors du premier chargement de la page. Les propriétés maximum-scale, minimum-scale et user-scalable contrôlent la manière dont les utilisateurs et utilisatrices sont autorisé·e·s à zoomer ou dézoomer la page. -->
+  </head>
+
+  <body>
+    <div id="mainContainer">
+      <header class="bordures borduresPurple">
+        <div id="logoContainer" class="bordures borduresGreen">
+          <img id="logo" src="./images/logo.png" alt="Logo de l'entreprise">
+        </div>
+        <img id="baniere" class="bordures borduresGreen" src="./images/banniere.jpg" alt="Baniere, un paysage montagneux">
+      </header>
+
+      <main>
+
+        <h1 class="bordures borduresPurple">Web Agency</h1>
+
+        <section id="sP" class="bordures borduresPurple">
+          <h2 id="sPTitle">Notre équipe</h2>
+          <div id="sPContent" class="bordures borduresGreen">
+            <article class="sPContentCard bordures borduresRed">
+              <img class="sPContentCardImg" src="./images/team/p01.jpg" alt="Photo de " class="bordures">
+              <p class="bordures borduresBlue">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed non risus. Suspendisse lectus tortor, dignissim sit amet, adipiscing nec, ultricies sed, dolor.</p>
+            </article>
+            <article class="sPContentCard bordures borduresRed">
+              <img class="sPContentCardImg" src="./images/team/p02.jpg" alt="Photo de " class="bordures">
+              <p class="bordures borduresBlue">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed non risus. Suspendisse lectus tortor, dignissim sit amet, adipiscing nec, ultricies sed, dolor.</p>
+            </article>
+            <article class="sPContentCard bordures borduresRed">
+              <img class="sPContentCardImg" src="./images/team/p03.jpg" alt="Photo de " class="bordures">
+              <p class="bordures borduresBlue">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed non risus. Suspendisse lectus tortor, dignissim sit amet, adipiscing nec, ultricies sed, dolor.</p>
+            </article>
+            <article class="sPContentCard bordures borduresRed">
+              <img class="sPContentCardImg" src="./images/team/p04.jpg" alt="Photo de " class="bordures">
+              <p class="bordures borduresBlue">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed non risus. Suspendisse lectus tortor, dignissim sit amet, adipiscing nec, ultricies sed, dolor.</p>
+            </article>
+            <article class="sPContentCard bordures borduresRed">
+              <img class="sPContentCardImg" src="./images/team/p05.jpg" alt="Photo de " class="bordures">
+              <p class="bordures borduresBlue">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed non risus. Suspendisse lectus tortor, dignissim sit amet, adipiscing nec, ultricies sed, dolor.</p>
+            </article>
+            <article class="sPContentCard bordures borduresRed">
+              <img class="sPContentCardImg" src="./images/team/p06.jpg" alt="Photo de " class="bordures">
+              <p class="bordures borduresBlue">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed non risus. Suspendisse lectus tortor, dignissim sit amet, adipiscing nec, ultricies sed, dolor.</p>
+            </article>
+          </div>
+        </section>
+
+        <section id="sC" class="bordures borduresPurple">
+          <h2 id="sCTitle" class="bordures borduresGreen">Nos compétences</h2>
+          <div class="sCContainer bordures borduresGreen">
+
+            <div class="cSCompetence cSCompetenceOdd bordures borduresRed">
+              <img class="bordures borduresBlue" src="./images/competences/html.png" alt="">
+              <div class="cSCompetenceH3 bordures borduresBlue">
+                <h3>langage html</h3>
+              </div>
+            </div>
+            <div class="cSCompetence cSCompetencePair bordures borduresRed">
+              <div class="cSCompetenceH3 bordures borduresBlue">
+                <h3>langage css</h3>
+              </div>
+              <img  class="bordures borduresBlue" src="./images/competences/css.png" alt="">
+            </div>
+            <div class="cSCompetence cSCompetenceOdd bordures borduresRed">
+              <img class="bordures borduresBlue"  class="bordures borduresBlue" src="./images/competences/js.png" alt="">
+              <div class="cSCompetenceH3 bordures borduresBlue">
+                <h3>langage js</h3>
+              </div>
+            </div>
+            <div class="cSCompetence cSCompetencePair bordures borduresRed">
+              <div class="cSCompetenceH3 bordures borduresBlue">
+                <h3>framework react</h3>
+              </div>
+              <img class="bordures borduresBlue" src="./images/competences/react.png" alt="">
+            </div>
+
+
+
+          </div>
+        </section>
+
+      </main>
+
+
+      <footer>
+        <div class="footerContainer bordures borduresPurple">
+
+          <div class="footerTextElement bordures borduresRed">
+            <i class="fas fa-phone"></i>
+            <p>06-12-34-56-78</p>
+          </div>
+          <div class="footerTextElement bordures borduresRed">
+            <i class="fas fa-envelope"></i>
+            <p>mail@mail.com</p>
+          </div>
+          <div class="footerTextElement bordures borduresRed">
+            <i class="fas fa-pen"></i>
+            <p>42 rue paradis, 75001 Paris</p>
+          </div>
+
+        </div>
+      </footer>
+
+
+    </div>
+  </body>
+</html>
